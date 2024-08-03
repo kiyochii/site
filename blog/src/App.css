@@ -1,0 +1,63 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.me {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 120px;
+  cursor:pointer;
+  z-index: 1;
+  margin-top: -25%;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin: 0 40px;
+  z-index: 1;
+}
+.me2{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  z-index: 1;
+  margin-top:-25%;
+}
+.contact{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  cursor:pointer;
+  z-index: 1;
+  line-height: 0.01;
+}
+.interest{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  
+} 
+
+.email-box {
+  border: 2px solid black;
+  padding: 0px 100px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #f0f0f062;
+  transition: background-color 0.3s ease;
+}
+
+.email-box:hover {
+  background-color: #ffffff54;
+}
+@keyframes mouseMove {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}
