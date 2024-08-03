@@ -34,7 +34,6 @@ function App() {
             </p>
         </main>
         
-      <div>Social media:</div>
       <footer>
         <a href="https://github.com/kiyochii" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} alt="GitHub Logo" className='logo' />
@@ -42,9 +41,7 @@ function App() {
         <a href="https://instagram.com/dankiyochi" target="_blank" rel="noopener noreferrer">
           <img src={instagramLogo} alt="Instagram Logo" className='logo' />
         </a>
-        <a href="https://kiyochi">
-        <img src = {spotify} alt = "spotifylogo" className='logo' />
-        </a>
+       
       </footer>
     </>
   );
