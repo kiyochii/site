@@ -59,5 +59,20 @@ footer {
   background: transparent;
   text-align: center;
   padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+@media (max-width: 600px) {
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer a {
+    margin: 10px;
+  }
+}
