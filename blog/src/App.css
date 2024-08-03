@@ -61,3 +61,34 @@
   50% { transform: translateX(10px); }
   100% { transform: translateX(0); }
 }
+
+@media (max-width: 600px) {
+  .me {
+    font-size: 60px;
+  }
+
+  .me2 {
+    font-size: 18px;
+  }
+
+  .contact {
+    font-size: 30px;
+  }
+
+  .email-box {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer a {
+    margin: 10px 0;
+  }
+}
