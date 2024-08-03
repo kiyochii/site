@@ -2,8 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import githubLogo from './assets/github-logo.png';
 import instagramLogo from './assets/Instagram_logo_2016.png';
-import spotify from './assets/spotify.png'
-import Header from './header';
+
 
 function App() {
   const [color, setColor] = useState('black');
