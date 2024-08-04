@@ -1,13 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const Header: React.FC = () => {
   return (
     <header className="header">
-      
       <nav>
-        <ul>
-
-        </ul>
+        <ul></ul>
       </nav>
     </header>
   );
